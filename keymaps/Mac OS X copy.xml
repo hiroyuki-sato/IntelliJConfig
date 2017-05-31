@@ -4,6 +4,7 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="BaseOnThisFunction" />
+  <action id="ClassTemplateNavigation" />
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
@@ -41,9 +42,21 @@
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+    <keyboard-shortcut first-keystroke="shift meta g" />
+  </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="GoToClass" />
+  <action id="GotoLine" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -53,4 +66,5 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchy.BaseOnThisType" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="antlr.Generate" />
 </keymap>
